@@ -2,8 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Anchor, Container, Divider, Flex, Stack, Text, ThemeIcon } from "@mantine/core";
 import dayjs from "dayjs";
-import { FaDiscord, FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 import { JSONCrackLogo } from "../JsonCrackLogo";
 
 export const Footer = () => {
