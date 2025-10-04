@@ -69,28 +69,20 @@ export const NotSupported = () => {
       <Stack maw="60%" align="center" justify="center" gap="sm">
         <Image src="https://todiagram.com/logo.svg" alt="Unsupported" w={72} h={72} />
         <Text fz="48" fw={600} c="bright">
-          Time to upgrade!
+          Limit Exceeded!
         </Text>
         <Text ta="center" size="lg" fw={500} c="gray" maw="600">
           This diagram is too large and not supported at JSON Crack.
           <br />
-          Try{" "}
-          <Anchor
-            inherit
-            c="teal"
-            fw="500"
-            href="https://todiagram.com/editor?utm_source=jsoncrack&utm_medium=data_limit"
-            target="_blank"
-            rel="noopener"
-          >
-            ToDiagram
-          </Anchor>{" "}
-          for larger diagrams and more features.
+          More tools at{" "}
+          <Anchor inherit c="teal" fw="500" href="https://vuiz.net" target="_blank" rel="noopener">
+            Vuiz.Net
+          </Anchor>
         </Text>
         <ShiningButton style={{ marginTop: "16px", position: "relative" }}>
           <Button
             component="a"
-            href="https://todiagram.com/editor?utm_source=jsoncrack&utm_medium=data_limit"
+            href="https://vuiz.net"
             rel="noopener"
             size="lg"
             w="200"

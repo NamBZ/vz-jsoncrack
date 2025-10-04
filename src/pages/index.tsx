@@ -14,7 +14,7 @@ import Layout from "../layout/PageLayout";
 export const HomePage = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <Layout>
-      <NextSeo {...SEO} canonical="https://jsoncrack.com" />
+      <NextSeo {...SEO} canonical="https://json.vuiz.net" />
       <HeroSection stars={props.stars} />
       <HeroPreview />
       <Section1 />

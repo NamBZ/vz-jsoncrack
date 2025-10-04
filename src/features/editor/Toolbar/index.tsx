@@ -54,11 +54,6 @@ export const Toolbar = () => {
         <ToolsMenu />
       </Group>
       <Group gap="xs" justify="right" w="100%" style={{ flexWrap: "nowrap" }}>
-        <Link href="https://github.com/AykutSarac/jsoncrack.com" rel="noopener" target="_blank">
-          <StyledToolElement title="GitHub">
-            <FaGithub size="18" />
-          </StyledToolElement>
-        </Link>
         <StyledToolElement title="Fullscreen" onClick={fullscreenBrowser}>
           <AiOutlineFullscreen size="18" />
         </StyledToolElement>

@@ -93,7 +93,7 @@ const EditorPage = () => {
         {...SEO}
         title="Editor | JSON Crack"
         description="JSON Crack Editor is a tool for visualizing into graphs, analyzing, editing, formatting, querying, transforming and validating JSON, CSV, YAML, XML, and more."
-        canonical="https://jsoncrack.com/editor"
+        canonical="https://json.vuiz.net/editor"
       />
       <ThemeProvider theme={darkmodeEnabled ? darkTheme : lightTheme}>
         <QueryClientProvider client={queryClient}>

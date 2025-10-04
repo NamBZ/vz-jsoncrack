@@ -69,7 +69,7 @@ export const Navbar = () => {
         <Center>
           <Button
             component="a"
-            href="https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode"
+            href="https://vuiz.net"
             target="_blank"
             variant="subtle"
             color="black"
@@ -77,7 +77,7 @@ export const Navbar = () => {
             radius="md"
             rel="noopener"
           >
-            VS Code
+            All Tools
           </Button>
           <Button
             component={Link}
@@ -92,7 +92,7 @@ export const Navbar = () => {
           </Button>
           <Button
             component="a"
-            href="https://github.com/AykutSarac/jsoncrack.com"
+            href="https://vuiz.net/getlink"
             target="_blank"
             variant="subtle"
             color="black"
@@ -100,7 +100,7 @@ export const Navbar = () => {
             radius="md"
             rel="noopener"
           >
-            Open Source
+            GetLink Music/Video
           </Button>
           <Menu withArrow shadow="sm">
             <Menu.Target>
@@ -153,17 +153,6 @@ export const Navbar = () => {
           </Menu>
         </Center>
         <Right>
-          <Button
-            component="a"
-            href="https://todiagram.com?utm_source=jsoncrack&utm_medium=navbar"
-            variant="subtle"
-            color="black"
-            size="md"
-            radius="md"
-            rel="noopener"
-          >
-            Upgrade
-          </Button>
           <Button
             radius="md"
             component="a"

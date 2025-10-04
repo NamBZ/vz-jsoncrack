@@ -5,12 +5,10 @@ export const BANNER_HEIGHT =
   process.env.NEXT_PUBLIC_DISABLE_EXTERNAL_MODE === "true" ? "0px" : "40px";
 
 const BANNER_LIST = [
-  "Save and store your diagrams with ToDiagram",
-  "Explore the ToDiagram from the creators of JSON Crack",
-  "Generate AI diagrams with single prompt",
-  "Try ToDiagram for free, no sign-up required",
-  "Edit data directly inside diagrams",
-  "Explore larger datasets (up to 50 MB) easily",
+  "CyberTools – Powerful Webmaster Tools & Media Downloader",
+  "Check domain WHOIS, DNS records, and IP details instantly",
+  "One place for all webmaster utilities – fast & reliable",
+  "Get direct download links for MP3 & YouTube videos",
 ];
 
 export const Banner = () => {
@@ -37,12 +35,7 @@ export const Banner = () => {
   }, []);
 
   return (
-    <Anchor
-      href="https://todiagram.com/editor?utm_source=jsoncrack&utm_medium=top_banner"
-      target="_blank"
-      rel="noopener"
-      underline="never"
-    >
+    <Anchor href="https://vuiz.net" target="_blank" rel="noopener" underline="never">
       <Flex
         h={BANNER_HEIGHT}
         justify="center"

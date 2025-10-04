@@ -13,39 +13,26 @@ export const Footer = () => {
       <Flex justify="space-between">
         <Stack gap={4} visibleFrom="sm">
           <JSONCrackLogo />
-          <Anchor href="mailto:contact@todiagram.com" fz="xs" c="dimmed">
-            contact@todiagram.com
+          <Anchor href="mailto:admin@vuiz.net" fz="xs" c="dimmed">
+            admin@vuiz.net
           </Anchor>
         </Stack>
         <Flex gap={60} visibleFrom="sm">
           <Stack gap="xs">
             <Text fz="sm" c="white">
-              Product
+              My Services
             </Text>
-            <Anchor
-              fz="sm"
-              c="gray.5"
-              href="https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode"
-              rel="noopener"
-            >
-              VS Code
+            <Anchor fz="sm" c="gray.5" href="https://nam.name.vn" rel="noopener">
+              Blog
             </Anchor>
-            <Anchor
-              href="https://github.com/AykutSarac/jsoncrack.com"
-              fz="sm"
-              c="gray.5"
-              target="_blank"
-              rel="noopener"
-            >
-              Open Source
+            <Anchor href="https://mixes.vuiz.net" fz="sm" c="gray.5" target="_blank" rel="noopener">
+              Mixes
             </Anchor>
-            <Anchor
-              href="https://todiagram.com?utm_source=jsoncrack&utm_medium=footer"
-              fz="sm"
-              c="gray.5"
-              rel="noopener"
-            >
-              ToDiagram
+            <Anchor href="https://xtools.vuiz.net" fz="sm" c="gray.5" rel="noopener">
+              XTools
+            </Anchor>
+            <Anchor href="https://geoip.vuiz.net" fz="sm" c="gray.5" rel="noopener">
+              GeoIP
             </Anchor>
           </Stack>
           <Stack gap="xs">
@@ -65,38 +52,13 @@ export const Footer = () => {
             </Text>
             <Flex gap="xs">
               <Anchor
-                aria-label="LinkedIn"
-                href="https://www.linkedin.com/company/jsoncrack"
-                fz="sm"
-                rel="noopener"
-              >
-                <ThemeIcon variant="transparent" color="gray.5">
-                  <FaLinkedin size={20} />
-                </ThemeIcon>
-              </Anchor>
-              <Anchor aria-label="X" fz="sm" href="https://x.com/jsoncrack" rel="noopener">
-                <ThemeIcon variant="transparent" color="gray.5">
-                  <FaXTwitter size={20} />
-                </ThemeIcon>
-              </Anchor>
-              <Anchor
                 aria-label="GitHub"
-                href="https://github.com/AykutSarac/jsoncrack.com"
+                href="https://github.com/NamBZ/vz-jsoncrack"
                 fz="sm"
                 rel="noopener"
               >
                 <ThemeIcon variant="transparent" color="gray.5">
                   <FaGithub size={20} />
-                </ThemeIcon>
-              </Anchor>
-              <Anchor
-                aria-label="Discord"
-                fz="sm"
-                href="https://discord.com/invite/yVyTtCRueq"
-                rel="noopener"
-              >
-                <ThemeIcon variant="transparent" color="gray.5">
-                  <FaDiscord size={20} />
                 </ThemeIcon>
               </Anchor>
             </Flex>
@@ -105,7 +67,7 @@ export const Footer = () => {
       </Flex>
       <Flex gap="xl">
         <Text fz="sm" c="dimmed">
-          © {dayjs().get("year")} JSON Crack
+          © {dayjs().get("year")} VuiZ.Net
         </Text>
         <Anchor component={Link} prefetch={false} fz="sm" c="dimmed" href="/legal/terms">
           <Text fz="sm" c="dimmed">
